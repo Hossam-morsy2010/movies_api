@@ -1,0 +1,28 @@
+body{
+  background-color: #F1F1F1 !important;
+}
+.my_header{
+  color: #40404C !important;
+}
+.my_link {
+  color: #22ACD7 !important;
+}
+.my_div:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgba(28, 168, 244,0.6) !important;
+  color: white !important;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+.my_div:hover a{
+  color: white !important;
+  font-weight: bold !important;
+}
+.my_p {
+  height: 40vh;
+  overflow: scroll;
+  overflow-x: hidden;
+}
